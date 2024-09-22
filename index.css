@@ -147,10 +147,7 @@ ul {
 
 /* Containers size */
 
-#main_container {
-	width: 960px;
-	margin: 0 auto;
-}
+
 	#header {
 		height: 130px;
 		border-bottom: 1px solid #403F44;
@@ -361,6 +358,71 @@ ul {
 		cursor: default;
 	}
 
-	#skills, #education {
-		display: none; /* Initially hidden */
-	  }
+
+	  
+/* Main Container */
+#main_container {
+	width: 1060px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #2a2a2a; /* Box background color */
+	border-radius: 8px; /* Rounded corners */
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+  }
+  
+  /* Form Styling */
+  #resume-form {
+	width: 650px;
+	margin: 0 auto;
+	background-color: #333; /* Form background color */
+	padding: 20px; /* Padding inside the form */
+	border-radius: 8px; /* Rounded corners */
+	margin-top: 30px; /* Space above the form */
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+	margin-bottom: 40px;
+  }
+
+
+  /* Form Inputs and Labels */
+  #resume-form label {
+	display: block; /* Labels should be block for spacing */
+	margin: 10px 0 5px; /* Spacing around labels */
+	color: #e4e3e8; /* Label color */
+  }
+  
+  #resume-form input, 
+  #resume-form textarea {
+	width: 90%; /* Full width for inputs */
+	padding: 10px; /* Padding inside inputs */
+	border: 1px solid #5ce2af; /* Border color */
+	border-radius: 8px; /* Rounded corners for inputs */
+	background-color: #444; /* Input background color */
+	color: #e4e3e8; /* Input text color */
+	margin-bottom: 20px;
+	margin-top: 5px;
+  }
+  
+  #resume-form button {
+	background-color: #48DA9B; /* Button background color */
+	color: white; /* Button text color */
+	border: none; /* No border */
+	padding: 10px 15px; /* Padding around button text */
+	border-radius: 4px; /* Rounded corners for button */
+	cursor: pointer; /* Pointer cursor for button */
+	margin-top: 10px; /* Space above the button */
+	margin-bottom: 20px;
+
+  }
+
+  
+
+
+  
+  /* Section Styling */
+  .section {
+	margin: 10px 0; /* Space between sections */
+	padding: 10px; /* Padding inside sections */
+	background-color: #444; /* Section background color */
+	border-radius: 8px; /* Rounded corners for sections */
+  }
+  
